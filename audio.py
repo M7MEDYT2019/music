@@ -39,16 +39,8 @@ playing = {}
 
     
     
-    if playing[ctx.message.server.id]== False:
-        try:
-            pos = in_voice.index(ctx.message.server.id)
-            del in_voice[pos]
-            server = ctx.message.server
-            voice_client = bot.voice_client_in(server)
-            await voice_client.disconnect()
-            await bot.say("{} left because there was no audio playing for a while".format(bot.user.name))
-        except:
-            pass
+    
+        
 
 @bot.event
 async def on_ready():
