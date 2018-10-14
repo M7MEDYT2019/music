@@ -38,9 +38,6 @@ playing = {}
 
 
     
-
-
-async def checking_voice(ctx):
     await asyncio.sleep(130)
     if playing[ctx.message.server.id]== False:
         try:
