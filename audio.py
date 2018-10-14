@@ -36,7 +36,7 @@ songs = {}
 playing = {}
 
 
-async def all_false():
+
     for i in bot.servers:
         playing[i.id]=False
 
