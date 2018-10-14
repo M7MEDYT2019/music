@@ -37,8 +37,7 @@ playing = {}
 
 
 
-    for i in bot.servers:
-        playing[i.id]=False
+    
 
 
 async def checking_voice(ctx):
