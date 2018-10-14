@@ -43,9 +43,8 @@ playing = {}
         
 
 @bot.event
-async def on_ready():
-    bot.loop.create_task(all_false())
-    print(bot.user.name)    
+
+
     
 @bot.command(pass_context=True)
 async def join(ctx):
