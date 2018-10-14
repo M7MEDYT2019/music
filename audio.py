@@ -38,7 +38,7 @@ playing = {}
 
 
     
-    await asyncio.sleep(130)
+    
     if playing[ctx.message.server.id]== False:
         try:
             pos = in_voice.index(ctx.message.server.id)
